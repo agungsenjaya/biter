@@ -172,7 +172,7 @@ export default function Home() {
     <div className="container">
         <div className="row">
             <div className="col-md-8 offset-md-2">
-                <h3 className="text-center title-1   mb-4"><span className="">Tokenomics</span></h3>
+                <h1 className="text-center fw-bold text-bit mb-4"><span className="">Tokenomics</span></h1>
 
                 <div className="row row-cols-1 row-cols-md-2 g-4">
                     <div className="col">
@@ -209,7 +209,7 @@ export default function Home() {
 </section>
 <section className="space-m">
     <div className="container">
-    <h3 className="text-center fw-bold text-bit mb-4"><span className="">Our Features</span></h3>
+    <h1 className="text-center fw-bold text-bit mb-4"><span className="">Our Features</span></h1>
         <div className="row">
             <div className="col-md-6 mb-3 mb-sm-0">
                 <img src="https://dummyimage.com/600x400" alt="" width="100%" />
@@ -228,7 +228,7 @@ export default function Home() {
 <div className="">
     <section className="space-m  text-dark" id="faq">
         <div className="container">
-            <h3 className="text-center fw-bold text-bit mb-4"><span className="">Bitgerswap Token</span></h3>
+            <h1 className="text-center fw-bold text-bit mb-4"><span className="">Bitgerswap Token</span></h1>
 
             <div className="row">
                 <div className="col-md-6 offset-md-3">
@@ -279,7 +279,7 @@ export default function Home() {
 </div>
 <section className="space-m">
     <div className="container">
-    <h3 className="text-center fw-bold text-bit mb-4"><span className="">Ourt Partnership</span></h3>
+    <h1 className="text-center fw-bold text-bit mb-4"><span className="">Our Partnership</span></h1>
     </div>
 </section>
     </Layout>
