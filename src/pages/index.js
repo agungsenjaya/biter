@@ -209,13 +209,13 @@ export default function Home() {
 </section>
 <section className="space-m">
     <div className="container">
-    <h3 className="text-center title-1   mb-4"><span className="">Our Features</span></h3>
+    <h3 className="text-center fw-bold text-bit mb-4"><span className="">Our Features</span></h3>
         <div className="row">
             <div className="col-md-6 mb-3 mb-sm-0">
                 <img src="https://dummyimage.com/600x400" alt="" width="100%" />
             </div>
             <div className="col-md-6 align-self-center">
-                <h3 className="">Decentralized <br/> Exchange Bitgertswap</h3>
+                <h3 className="fw-bold text-bit">Decentralized <br/> Exchange Bitgertswap</h3>
                 <p>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
                     make a type specimen
@@ -226,32 +226,9 @@ export default function Home() {
     </div>
 </section>
 <div className="">
-    <section className="container space-m d-none">
-        <h3 className="text-center   mb-4"><span className="">Our</span>Partner</h3>
-        <div className="row">
-            <div className="col-md-8 offset-md-2">
-                <div className="card card-body bg-bit border-0 shadow-none">
-                    <div className="row">
-                        <div className="col-md-3 col-6 mb-2">
-                            <img src="https://bobaraca.com/wp-content/themes/blankslate/assets/img/partner/1.png" alt="" width="100%" />
-                        </div>
-                        <div className="col-md-3 col-6 mb-2">
-                            <img src="https://bobaraca.com/wp-content/themes/blankslate/assets/img/partner/2.png" alt="" width="100%" />
-                        </div>
-                        <div className="col-md-3 col-6 mb-2">
-                            <img src="https://bobaraca.com/wp-content/themes/blankslate/assets/img/partner/3.png" alt="" width="100%" />
-                        </div>
-                        <div className="col-md-3 col-6 mb-2">
-                            <img src="https://bobaraca.com/wp-content/themes/blankslate/assets/img/partner/4.png" alt="" width="100%" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     <section className="space-m  text-dark" id="faq">
         <div className="container">
-            <h3 className="text-center title-1   mb-4"><span className="">Bitgerswap Token</span></h3>
+            <h3 className="text-center fw-bold text-bit mb-4"><span className="">Bitgerswap Token</span></h3>
 
             <div className="row">
                 <div className="col-md-6 offset-md-3">
@@ -302,7 +279,7 @@ export default function Home() {
 </div>
 <section className="space-m">
     <div className="container">
-    <h3 className="text-center title-1   mb-4"><span className="">Ourt Partnership</span></h3>
+    <h3 className="text-center fw-bold text-bit mb-4"><span className="">Ourt Partnership</span></h3>
     </div>
 </section>
     </Layout>
