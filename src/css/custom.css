@@ -13089,7 +13089,7 @@ screen and (min-width:769px) {
   box-shadow: 4px 2px 8px rgb(0 223 116 / 25%), 2px 4px 8px rgb(0 122 255 / 25%);
 }
 .hero {
-  background:url(http://localhost:3000/img/bg-1.jpg);
+  background:url(https://stalwart-haupia-8233ce.netlify.app/img/bg-1.jpg);
   background-size: cover;
   background-position: bottom;
 }
