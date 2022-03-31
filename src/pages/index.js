@@ -273,13 +273,13 @@ export default function Home() {
     <div className="grad-1 p-3 rounded">
     <div className="row">
         <div className="col-md-4 col-6">
-            <img src="https://metafieldtoken.io/assets/img/binance.png" alt="" width="100%" />
+            <img src="img/binance.png" alt="" width="100%" />
         </div>
         <div className="col-md-4 col-6">
-            <img src="https://metafieldtoken.io/assets/img/coingecko.png" alt="" width="100%" />
+            <img src="img/coingecko.png" alt="" width="100%" />
         </div>
         <div className="col-md-4 col-6">
-            <img src="https://metafieldtoken.io/assets/img/cmc.png" alt="" width="100%" />
+            <img src="img/cmc.png" alt="" width="100%" />
         </div>
     </div>
     </div>
