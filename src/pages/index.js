@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import Layout from '@theme/Layout';
-import 'bootstrap/dist/js/bootstrap.min.js';
+// import 'bootstrap/dist/js/bootstrap.bundle.js';
 import AOS from 'aos';
 import $ from "jquery";
 import "aos/dist/aos.css";
@@ -41,9 +41,10 @@ export default function Home() {
 <div className="container space-m">
     <div className="row">
         <div className="col-md-6 offset-md-3">
-            <div className="card card-body grad-1 text-white border-0">
+
             <div className="row text-center">
-                <div className="col-md align-self-center">
+                <div className="col-md align-self-center mb-3 mb-md-0">
+                <div className="card grad-1 border-0">
                     <div className="">
                         <div className="card-body">
                             <p className="mb-0 small">Total Holders</p>
@@ -51,18 +52,17 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="col-md align-self-center border-start border-dark">
-                    <div className="">
+                </div>
+                <div className="col-md align-self-center">
+                <div className="card grad-1 border-0">
                         <div className="card-body">
                             <p className="mb-0 small">Circulating Supply</p>
                             <h2 className="">00</h2>
                         </div>
                     </div>
                 </div>
-                
-                
             </div>
-            </div>
+            
         </div>
     </div>
 </div>
@@ -148,7 +148,6 @@ export default function Home() {
                                     </ul>
                                 </div>
                             </div>
-                            
                         </div>
                     </div>
                 </div>
@@ -158,7 +157,7 @@ export default function Home() {
 </div>
 
 
-<section className="space-m d-none" id="tokenomics">
+<section className="space-m" id="tokenomics">
     <div className="container">
         <div className="row">
             <div className="col-md-8 offset-md-2">
@@ -222,9 +221,9 @@ export default function Home() {
             <div className="row">
                 <div className="col-md-6 offset-md-3">
                     <div className="accordion" id="accordionFlushExample">
-                        <div className="accordion-item">
+                        <div className="accordion-item border-dark">
                             <h2 className="accordion-header" id="flush-headingOne">
-                                <button className="accordion-button btn-boba collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-one" aria-expanded="false" aria-controls="flush-one">
+                                <button className="accordion-button grad-1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-one" aria-expanded="false" aria-controls="flush-one">
                                     What is Bitgertswap?
                                 </button>
                             </h2>
@@ -236,9 +235,9 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="accordion-item">
+                        <div className="accordion-item border-dark">
                             <h2 className="accordion-header" id="flush-headingTwo">
-                                <button className="accordion-button btn-boba collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-two" aria-expanded="false" aria-controls="flush-two">
+                                <button className="accordion-button grad-1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-two" aria-expanded="false" aria-controls="flush-two">
                                     When did you expand to Polygon?
                                 </button>
                             </h2>
@@ -248,9 +247,9 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="accordion-item">
+                        <div className="accordion-item border-dark">
                             <h2 className="accordion-header" id="flush-headingThree">
-                                <button className="accordion-button btn-boba collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-three" aria-expanded="false" aria-controls="flush-three">
+                                <button className="accordion-button grad-1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-three" aria-expanded="false" aria-controls="flush-three">
                                     Why did Bitgertswap choose radiocaca as a reward?
                                 </button>
                             </h2>
@@ -269,6 +268,23 @@ export default function Home() {
 <section className="space-m">
     <div className="container">
     <h1 className="text-center fw-bold text-bit mb-4"><span className="">Our Partnership</span></h1>
+    <div className="row">
+    <div className="col-md-8 offset-md-2">
+    <div className="grad-1 p-3 rounded">
+    <div className="row">
+        <div className="col-md-4 col-6">
+            <img src="https://metafieldtoken.io/assets/img/binance.png" alt="" width="100%" />
+        </div>
+        <div className="col-md-4 col-6">
+            <img src="https://metafieldtoken.io/assets/img/coingecko.png" alt="" width="100%" />
+        </div>
+        <div className="col-md-4 col-6">
+            <img src="https://metafieldtoken.io/assets/img/cmc.png" alt="" width="100%" />
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
     </div>
 </section>
     </Layout>
