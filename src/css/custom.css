@@ -12824,7 +12824,7 @@ screen and (min-width:769px) {
   font-weight: 400;
   display: inline-flex;
   align-items: center;
-  color: #959595
+  color: #fff
 }
 
 .mb-roadmap-title-wrapper .mb-roadmap-title-image {
@@ -12845,7 +12845,7 @@ ul.mb-roadmap-list-wrapper {
 }
 
 ul.mb-roadmap-list-wrapper li {
-  color: #32445f;
+  color: #fff;
   line-height: 150%
 }
 
@@ -13094,7 +13094,7 @@ screen and (min-width:769px) {
   background-position: bottom;
 }
 .grad-1 {
-  background-image:linear-gradient(180deg,#f47b02 5%,#ac3030);
+  background-image:linear-gradient(180deg,#f47b02 5%,#ac3030) !important;
 }
 .globe-1 {
   transform:translate(-23px, -64px);

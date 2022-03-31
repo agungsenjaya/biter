@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import Layout from '@theme/Layout';
-// import 'https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js';
-// import 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js';
+import 'bootstrap/dist/js/bootstrap.min.js';
 import AOS from 'aos';
 import $ from "jquery";
 import "aos/dist/aos.css";
@@ -78,7 +77,7 @@ export default function Home() {
                 <Link className="button btn-bit" to="#">Get Whitepaper</Link>
             </div>
             <div className="col-md-6">
-                {/* <img src="img/man-1.png" alt="" width="50%" /> */}
+                <img src="img/about.png" alt="" width="100%" />
             </div>
         </div>
     </div>
@@ -98,63 +97,54 @@ export default function Home() {
                     <div className="mb-roadmap-wrapper mt-40px">
                         <div className="mb-roadmap-inner">
                             <div data-wow-delay="0.1s" className="mb-roadmap-block-wrapper left stage-0 wow animate__fadeInUp">
-                                <div className="mb-roadmap-block">
+                                <div className="mb-roadmap-block grad-1 text-white">
                                     <div className="mb-roadmap-title-wrapper">
-                                        <h5 className="mb-0">Stage 1</h5>
+                                        <h5 className="mb-0">Launch Phase</h5>
                                     </div>
                                     <ul className="mb-roadmap-list-wrapper">
-                                        <li>Game concept creation</li>
-                                        <li>Creating of BSTS deflationary token</li>
-                                        <li>Whitepaper creation</li>
-                                        <li>Beasties.online Website launch</li>
-                                        <li>Project Announcement</li>
-                                        <li>Social media launch</li>
+                                        <li>Telegram Group Launch</li>
+                                        <li>Contact Deplyment</li>
+                                        <li>DEX Listing (PancakeSwap)</li>
+                                        <li>WEbsite Launch</li>
                                     </ul>
                                 </div>
                             </div>
                             <div data-wow-delay="0.15s" className="mb-roadmap-block-wrapper right stage-1 wow animate__fadeInUp">
-                                <div className="mb-roadmap-block">
+                                <div className="mb-roadmap-block grad-1 text-white">
                                     <div className="mb-roadmap-title-wrapper">
-                                        <h5 className="mb-0">Stage 2</h5>
+                                        <h5 className="mb-0">Growth Phase</h5>
                                     </div>
                                     <ul className="mb-roadmap-list-wrapper">
-                                        <li>Social Media Community expansion</li>
-                                        <li>Creating the first three unique Beasties</li>
-                                        <li>Project Audit</li>
-                                        <li>Marketing</li>
-                                        <li>DxSale presale &amp; Pancakeswap listing</li>
-                                        <li>Special Halloween unique Beasties (limited edition)</li>
+                                        <li>Advertising Cmpaigns</li>
+                                        <li>Influencer Promotions</li>
+                                        <li>Coingecko Listing</li>
+                                        <li>Cointmarketcap Listing</li>
+                                        <li>Apply for initial CEK</li>
                                     </ul>
                                 </div>
                             </div>
                             <div data-wow-delay="0.2s" className="mb-roadmap-block-wrapper left stage-2 wow animate__fadeInUp">
-                                <div className="mb-roadmap-block">
+                                <div className="mb-roadmap-block grad-1 text-white">
                                     <div className="mb-roadmap-title-wrapper">
-                                        <h5 className="mb-0">Stage 3</h5>
+                                        <h5 className="mb-0">Expansion Phase</h5>
                                     </div>
                                     <ul className="mb-roadmap-list-wrapper">
-                                        <li>Alpha version release</li>
-                                        <li>Alpha version test &amp; fixes</li>
-                                        <li>NFT Marketplace launch</li>
-                                        <li>Cross-promo events with leading projects</li>
-                                        <li>NFT Loot Boxes</li>
-                                        <li>Special Christmas unique Beasties (limited edition)</li>
+                                        <li>Audit Solutions</li>
+                                        <li>Bridge to Bitgert Blockchain, Relaychain, Parachain, and Polygon</li>
+                                        <li>Techrate Audit</li>
+                                        <li>Media Promotions</li>
                                     </ul>
                                 </div>
                             </div>
                             <div data-wow-delay="0.25s" className="mb-roadmap-block-wrapper right stage-3 wow animate__fadeInUp">
-                                <div className="mb-roadmap-block">
+                                <div className="mb-roadmap-block grad-1 text-white">
                                     <div className="mb-roadmap-title-wrapper">
-                                        <h5 className="mb-0">Stage 4</h5>
+                                        <h5 className="mb-0">Utility Phase</h5>
                                     </div>
                                     <ul className="mb-roadmap-list-wrapper">
-                                        <li>Beta Version 1.0 launch</li>
-                                        <li>Properties For Sale</li>
-                                        <li>Build your own house</li>
-                                        <li>Random Events on the main map</li>
-                                        <li>PvP Battles &amp; Boss Fights</li>
-                                        <li>Fiat Payment inside the Game</li>
-                                        <li>Expanding to other chains (Ethereum, Polygon, etc)</li>
+                                        <li>V1. Swap Platform</li>
+                                        <li>Dex and Launchpad Development</li>
+                                        <li>Hopefully the roadmaps written in this whitepaper canbe realized i hope all holders will get provit and being lucky in their life</li>
                                     </ul>
                                 </div>
                             </div>
@@ -168,7 +158,7 @@ export default function Home() {
 </div>
 
 
-<section className="space-m " id="tokenomics">
+<section className="space-m d-none" id="tokenomics">
     <div className="container">
         <div className="row">
             <div className="col-md-8 offset-md-2">
@@ -176,28 +166,27 @@ export default function Home() {
 
                 <div className="row row-cols-1 row-cols-md-2 g-4">
                     <div className="col">
-                        <div className="card bg-bit text-white h-100 " >
+                        <div className="card grad-1 border-0 text-white h-100 " >
                             <div className="card-body">
                                 <h5 className="card-title title-1 mb-4 ">Allocation Supply</h5>
 
                                 <ul className="list-group list-group-flush list-road-2">
-                                    <li className="list-group-item">25% Burn wallet</li>
-                                    <li className="list-group-item">5% Wallet marketing</li>
-                                    <li className="list-group-item">2% Team Dev</li>
-                                    <li className="list-group-item">68% Pancake</li>
+                                    <li className="list-group-item">Total Supply 50,000,000,000</li>
+                                    <li className="list-group-item">Circulating Supply 45,000,000,000 - 90% Supply</li>
+                                    <li className="list-group-item">Burn will be done manually</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div className="col">
-                        <div className="card bg-bit text-white h-100 " >
+                        <div className="card grad-1 border-0 text-white h-100 " >
                             <div className="card-body">
-                                <h5 className="card-title title-1 mb-4 ">Tax 13%</h5>
+                                <h5 className="card-title title-1 mb-4 ">Tax Sell & Buy 10%</h5>
 
                                 <ul className="list-group list-group-flush list-road-2">
-                                    <li className="list-group-item">6% Marketing</li>
-                                    <li className="list-group-item">5% Reward</li>
-                                    <li className="list-group-item">2% Dev</li>
+                                    <li className="list-group-item">4% Marketing Tax</li>
+                                    <li className="list-group-item">10% Total Transaction Fee (4% Marketing, 6% BITRISE Distribution to Holders)</li>
+                                    <li className="list-group-item">6% BITGERT/BITRISE TAX</li>
                                 </ul>
                             </div>
                         </div>
@@ -212,7 +201,7 @@ export default function Home() {
     <h1 className="text-center fw-bold text-bit mb-4"><span className="">Our Features</span></h1>
         <div className="row">
             <div className="col-md-6 mb-3 mb-sm-0">
-                <img src="https://dummyimage.com/600x400" alt="" width="100%" />
+                <img src="img/exchange.png" alt="" width="100%" />
             </div>
             <div className="col-md-6 align-self-center">
                 <h3 className="fw-bold text-bit">Decentralized <br/> Exchange Bitgertswap</h3>

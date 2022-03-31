@@ -72,7 +72,7 @@ const config = {
           },
           {
             to: '#',
-            label: 'Buy Token', 
+            label: 'Open App', 
             position: 'right'
           },
         ],
