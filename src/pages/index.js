@@ -103,9 +103,9 @@ export default function Home() {
                                     </div>
                                     <ul className="mb-roadmap-list-wrapper">
                                         <li>Telegram Group Launch</li>
-                                        <li>Contact Deplyment</li>
+                                        <li>Contact Deployment</li>
                                         <li>DEX Listing (PancakeSwap)</li>
-                                        <li>WEbsite Launch</li>
+                                        <li>Website Launch</li>
                                     </ul>
                                 </div>
                             </div>
@@ -119,7 +119,7 @@ export default function Home() {
                                         <li>Influencer Promotions</li>
                                         <li>Coingecko Listing</li>
                                         <li>Cointmarketcap Listing</li>
-                                        <li>Apply for initial CEK</li>
+                                        <li>Apply for initial CEX</li>
                                     </ul>
                                 </div>
                             </div>
@@ -184,7 +184,6 @@ export default function Home() {
 
                                 <ul className="list-group list-group-flush list-road-2">
                                     <li className="list-group-item">4% Marketing Tax</li>
-                                    <li className="list-group-item">10% Total Transaction Fee (4% Marketing, 6% BITRISE Distribution to Holders)</li>
                                     <li className="list-group-item">6% BITGERT/BITRISE TAX</li>
                                 </ul>
                             </div>
