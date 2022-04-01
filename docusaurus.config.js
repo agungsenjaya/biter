@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Bitgertswap',
   tagline: 'Best token invest',
-  url: 'https://stalwart-haupia-8233ce.netlify.app',
+  url: 'https://bitgertswap.finance/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
