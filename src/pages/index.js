@@ -28,9 +28,9 @@ export default function Home() {
             <div className="col-md-6 offset-md-3 align-self-center text-center">
                 {/* <img src="img/bitgertswap.png" alt="" width="20%" class="" /> */}
                 <h1 className="text-white display-5 fw-bold">Welcome to the Moon invest <br/> <span className="text-bit">Bitgertswap Token</span></h1>
-                <p>Bitgertswap is a decentralized finance network on the Binance blockchain, with functionalities such as staking, farming, lotteries and a lot more, operating similarly to a high yield certificate of deposit.</p>
+                <p class="text-white">Bitgertswap is a decentralized finance network on the Binance blockchain, with functionalities such as staking, farming, lotteries and a lot more, operating similarly to a high yield certificate of deposit.</p>
                 <Link className="button btn-bit" to="#">Get Bitgertswap</Link>
-                <Link className="button btn-light ms-3" to="#">Whitepaper</Link>
+                <Link className="button btn-light ms-3" target="_blank" to="pdf/Whitepaper_V.1.pdf">Whitepaper</Link>
             </div>
             {/* <div className="col-md-6 mb-3 mb-sm-0">
                 <img src="https://dummyimage.com/600x500" alt="" width="100%" class="opacity-0" />
@@ -42,7 +42,7 @@ export default function Home() {
     <div className="row">
         <div className="col-md-6 offset-md-3">
 
-            <div className="row text-center">
+            <div className="row text-center text-white">
                 <div className="col-md align-self-center mb-3 mb-md-0">
                 <div className="card grad-1 border-0">
                     <div className="">
@@ -72,9 +72,9 @@ export default function Home() {
             <div className="col-md-6 align-self-center mb-3 mb-sm-0">
                 <h1 className="text-bit fw-bold">What is <br/> Bitgertswap Token</h1>
                 <p>
-                    Launched on the Binance Smart Chain (BSC) In Februari 2022, Bitgertswap is the biggest Raca reflection token brought to market Bitgertswap will give you experience about utility token.
+                    Launched on the Binance Smart Chain (BSC) In Februari 2022, Bitgertswap is the biggest Bitrise reflection token brought to market Bitgertswap will give you experience about utility token.
                 </p>
-                <Link className="button btn-bit" to="#">Get Whitepaper</Link>
+                <Link className="button btn-bit" target="_blank" to="pdf/Whitepaper_V.1.pdf">Get Whitepaper</Link>
             </div>
             <div className="col-md-6">
                 <img src="img/about.png" alt="" width="100%" />
@@ -204,8 +204,7 @@ export default function Home() {
             <div className="col-md-6 align-self-center">
                 <h3 className="fw-bold text-bit">Decentralized <br/> Exchange Bitgertswap</h3>
                 <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-                    make a type specimen
+                    Check is allowed to exchange for other tokens (ETC, BNB, USDT) on Bitgertswap Exchange Tools.
                 </p>
                 <Link className="button btn-bit" to="#">Comingsoon</Link>
             </div>
@@ -228,8 +227,8 @@ export default function Home() {
                             </h2>
                             <div id="flush-one" className="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                 <div className="accordion-body">
-                                    Launched on the Binance Smart Chain (BSC) In Februari 2022, Bitgertswap is the biggest Raca reflection token brought to market Bitgertswap will give you experience about utility token (BobaRaca Swap and
-                                    Boba NFT) that give you reward by holding Simply Hold Bitgertswap tokens and get rewarded in Raca on every transaction! Out auto-claim feature means your Raca Rewards Will be automatically sent to your
+                                    Launched on the Binance Smart Chain (BSC) In Februari 2022, Bitgertswap is the biggest Bitrise reflection token brought to market Bitgertswap will give you experience about utility token (Bitgertswap Swap and
+                                    Bitgertswap NFT) that give you reward by holding Simply Hold Bitgertswap tokens and get rewarded in Bitrise on every transaction! Out auto-claim feature means your Bitrise Rewards Will be automatically sent to your
                                     wallet
                                 </div>
                             </div>
@@ -249,12 +248,12 @@ export default function Home() {
                         <div className="accordion-item border-dark">
                             <h2 className="accordion-header" id="flush-headingThree">
                                 <button className="accordion-button grad-1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-three" aria-expanded="false" aria-controls="flush-three">
-                                    Why did Bitgertswap choose radiocaca as a reward?
+                                    Why did Bitgertswap choose Bitgertswap as a reward?
                                 </button>
                             </h2>
                             <div id="flush-three" className="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                                 <div className="accordion-body">
-                                    Radiocaca will be a native coin in the raca-metaverse, we want to take the opportunity to be able to join the raca-metaverse like babycake and pancake.
+                                    Bitgertswap will be a native coin in the raca-metaverse, we want to take the opportunity to be able to join the raca-metaverse like babycake and pancake.
                                 </div>
                             </div>
                         </div>

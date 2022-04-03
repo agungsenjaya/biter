@@ -52,27 +52,12 @@ const config = {
         items: [
           {
             to: '#',
-            label: 'About', 
-            position: 'left'
+            label: 'Exchange', 
+            position: 'right'
           },
           {
             to: '#',
-            label: 'Roadmaps', 
-            position: 'left'
-          },
-          {
-            to: '#',
-            label: 'Tokenomics', 
-            position: 'left'
-          },
-          {
-            to: '#',
-            label: 'Faq', 
-            position: 'left'
-          },
-          {
-            to: '#',
-            label: 'Open App', 
+            label: 'Stacking', 
             position: 'right'
           },
         ],
