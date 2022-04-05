@@ -72,7 +72,7 @@ export default function Home() {
             <div className="col-md-6 align-self-center mb-3 mb-sm-0">
                 <h1 className="text-bit fw-bold">What is <br/> Bitgertswap Token</h1>
                 <p>
-                    Launched on the Binance Smart Chain (BSC) In Februari 2022, Bitgertswap is the biggest Bitrise reflection token brought to market Bitgertswap will give you experience about utility token.
+                    Launched on the Binance Smart Chain (BSC) In April 2022, Bitgertswap is the biggest Bitrise reflection token brought to market Bitgertswap will give you experience about utility token.
                 </p>
                 <Link className="button btn-bit" target="_blank" to="pdf/Whitepaper_V.1.pdf">Get Whitepaper</Link>
             </div>
@@ -227,7 +227,7 @@ export default function Home() {
                             </h2>
                             <div id="flush-one" className="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                 <div className="accordion-body">
-                                    Launched on the Binance Smart Chain (BSC) In Februari 2022, Bitgertswap is the biggest Bitrise reflection token brought to market Bitgertswap will give you experience about utility token (Bitgertswap Swap and
+                                    Launched on the Binance Smart Chain (BSC) In April 2022, Bitgertswap is the biggest Bitrise reflection token brought to market Bitgertswap will give you experience about utility token (Bitgertswap Swap and
                                     Bitgertswap NFT) that give you reward by holding Simply Hold Bitgertswap tokens and get rewarded in Bitrise on every transaction! Out auto-claim feature means your Bitrise Rewards Will be automatically sent to your
                                     wallet
                                 </div>
